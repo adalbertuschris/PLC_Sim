@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PLC>
+  <device>
+    <family name ="SIMATIC S7-300">
+      <module name="CPU">
+        <shortDesignation>CPU 312C</shortDesignation>
+        <orderNumber>6ES7 312-5BF04-0AB0</orderNumber>
+        <firmwareVersion>V2.6</firmwareVersion>
+      </module>
+    </family>
+  </device>
+
+  <view>
+    <window width="978" height="762">
+
+      <image source="S7-312C.png" width="422" height="562"/>
+      <controls name="DC5V" checked ="true" readOnly="true" width="12" height="12" locationX="6" locationY="77" />
+      <controls name="RUN" checked ="true" readOnly="true" width="12" height="12" locationX="6" locationY="123" />
+      <controls name="STOP" checked ="false" readOnly="true" width="12" height="12" locationX="6" locationY="146" />
+
+      <controls name="DI1" checked ="true" readOnly="true" width="12" height="12" locationX="238" locationY="31" />
+      <controls name="I0.0" checked ="false" readOnly="false" width="12" height="12" locationX="238" locationY="54" />
+      <controls name="I0.1" checked ="false" readOnly="false" width="12" height="12" locationX="238" locationY="77" />
+      <controls name="I0.2" checked ="false" readOnly="false" width="12" height="12" locationX="238" locationY="100" />
+      <controls name="I0.3" checked ="false" readOnly="false" width="12" height="12" locationX="238" locationY="123" />
+      <controls name="I0.4" checked ="false" readOnly="false" width="12" height="12" locationX="238" locationY="146" />
+      <controls name="I0.5" checked ="false" readOnly="false" width="12" height="12" locationX="238" locationY="169" />
+      <controls name="I0.6" checked ="false" readOnly="false" width="12" height="12" locationX="238" locationY="192" />
+      <controls name="I0.7" checked ="false" readOnly="false" width="12" height="12" locationX="238" locationY="215" />
+
+      <controls name="I1.0" checked ="false" readOnly="false" width="12" height="12" locationX="238" locationY="330" />
+      <controls name="I1.1" checked ="false" readOnly="false" width="12" height="12" locationX="238" locationY="353" />
+      <controls name="I1.2" checked ="false" readOnly="false" width="12" height="12" locationX="238" locationY="376" />
+      <controls name="I1.3" checked ="false" readOnly="false" width="12" height="12" locationX="238" locationY="399" />
+      <controls name="I1.4" checked ="false" readOnly="false" width="12" height="12" locationX="238" locationY="422" />
+      <controls name="I1.5" checked ="false" readOnly="false" width="12" height="12" locationX="238" locationY="445" />
+      <controls name="I1.6" checked ="false" readOnly="false" width="12" height="12" locationX="238" locationY="468" />
+      <controls name="I1.7" checked ="false" readOnly="false" width="12" height="12" locationX="238" locationY="491" />
+
+      <controls name="DO1" checked ="true" readOnly="true" width="12" height="12" locationX="402" locationY="31" />
+      <controls name="Q0.0" checked ="false" readOnly="true" width="12" height="12" locationX="402" locationY="54" />
+      <controls name="Q0.1" checked ="false" readOnly="true" width="12" height="12" locationX="402" locationY="77" />
+      <controls name="Q0.2" checked ="false" readOnly="true" width="12" height="12" locationX="402" locationY="100" />
+      <controls name="Q0.3" checked ="false" readOnly="true" width="12" height="12" locationX="402" locationY="123" />
+      <controls name="Q0.4" checked ="false" readOnly="true" width="12" height="12" locationX="402" locationY="146" />
+      <controls name="Q0.5" checked ="false" readOnly="true" width="12" height="12" locationX="402" locationY="169" />
+      <controls name="Q0.6" checked ="false" readOnly="true" width="12" height="12" locationX="402" locationY="192" />
+      <controls name="Q0.7" checked ="false" readOnly="true" width="12" height="12" locationX="402" locationY="215" />
+
+      <controls name="Q1.0" checked ="false" readOnly="true" width="12" height="12" locationX="402" locationY="330" />
+      <controls name="Q1.1" checked ="false" readOnly="true" width="12" height="12" locationX="402" locationY="353" />
+      <controls name="Q1.2" checked ="false" readOnly="true" width="12" height="12" locationX="402" locationY="376" />
+      <controls name="Q1.3" checked ="false" readOnly="true" width="12" height="12" locationX="402" locationY="399" />
+      <controls name="Q1.4" checked ="false" readOnly="true" width="12" height="12" locationX="402" locationY="422" />
+      <controls name="Q1.5" checked ="false" readOnly="true" width="12" height="12" locationX="402" locationY="445" />
+      <controls name="Q1.6" checked ="false" readOnly="true" width="12" height="12" locationX="402" locationY="468" />
+      <controls name="Q1.7" checked ="false" readOnly="true" width="12" height="12" locationX="402" locationY="491" />
+      
+    </window>
+  </view>
+</PLC>

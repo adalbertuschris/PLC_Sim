@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VirtualSystem>
+  <info>
+    <name>Block sorting system</name>
+    <numberOfDigitalSensors>14</numberOfDigitalSensors>
+    <numberOfDigitalActuators>10</numberOfDigitalActuators>
+    <description>Proces rozpoczyna działanie od wygenerowania losowych bloczków z dwóch typów materiałów: aluminium oraz plastiku. Poprzez wysterowanie odpowiednich aktuatorów możesz je odpowiednio posortować, umieszczając je w odpowiednich kontenerach. Do ustalania z jakim typem bloczku masz do czynienia zastosowano 2 czujniki (pojemnościowy oraz indukcyjny).</description>      
+    <image source="Block sorting system\Block_sorting_system.png" width="470" height="300"/>
+    <connectionInfoImage source="Block sorting system\ConnectionInfo.png" width ="443" height="394" />    
+  </info>  
+  <assembly source="Block sorting system\Block_sorting_system.exe"></assembly>  
+</VirtualSystem>
